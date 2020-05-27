@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 type Props = {
-  title?: string
+  title?: string,
+  children:any
 }
 
 const Layout: React.FunctionComponent<Props> = ({
